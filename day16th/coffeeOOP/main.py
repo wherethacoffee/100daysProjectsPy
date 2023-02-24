@@ -20,9 +20,8 @@ def main():
             mnyMachine.report()
         else:
             drink = menu.find_drink(choice)
-            if cfeMkr.is_resource_sufficient(drink):
-                if mnyMachine.make_payment(drink.cost):
-                    cfeMkr.make_coffee(drink)
+            if cfeMkr.is_resource_sufficient(drink) and mnyMachine.make_payment(drink.cost):
+                cfeMkr.make_coffee(drink)
 
 if __name__ == "__main__":
     main()
