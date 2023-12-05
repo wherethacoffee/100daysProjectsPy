@@ -1,2 +1,2 @@
-# 100daysProjectsPy
-This is a private repository of my python programs:)
+# 100 days python projects
+This is a personal repository I created from my Python Projects based on a Udemy course:)
